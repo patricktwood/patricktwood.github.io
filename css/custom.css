@@ -1,0 +1,73 @@
+/*
+* Custom Stylesheet
+* www.patricktwood.com
+* 10/29/2017
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Header and Nav
+- Footer
+-
+*/
+
+
+/* Header and Nav - From Template
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+     border-bottom: solid 1px black; 
+}
+.logo {
+    text-transform: uppercase;
+}
+.nav_bar {
+}
+.nav_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+.nav_bar a {
+	width: 50%;
+	display: block;
+	float: left;	
+	text-align: center;
+/*	background-color: #EFEFEF; */
+    background-color: transparent;
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 0px 10px 0px;
+/*    border-bottom: solid 1px black; */
+}
+.nav_bar a:hover, .nav_bar a:active, .nav_bar a:focus, .nav_bar {
+	text-decoration: none;
+	background-color: #CCCCCC;
+}
+.margin_top {
+	margin-top: 30px;
+}
+
+/* Footer - From Template
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+.footer a, .footer li {
+	width: 100%;
+	display: block;
+	float: left;	
+	text-align: center;
+	background-color: transparent;
+	color: #222222;
+/*	text-transform: uppercase;
+	font-weight: bold;     */
+	padding: 15px 0px 15px 0px;
+}
+.footer a:hover, .footer a:active, .footer a:focus {
+	color: #F60;
+	text-decoration: underline;
+}
